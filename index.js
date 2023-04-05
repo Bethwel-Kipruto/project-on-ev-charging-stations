@@ -37,7 +37,7 @@ function displayChargers(chargers){
     <div class="baton"><button class="book-now-btn" >BOOK NOW</button></div>
     <p class="station-status">THIS STATION IS FREE</p>
   `;
-  
+  //
   document.querySelector("#displayChargers").appendChild(chargercards);
 
   const btn = chargercards.querySelector(".book-now-btn");
