@@ -55,28 +55,28 @@ function displayChargers(chargers){
     
     const names = prompt("WRITE YOUR NAME HERE  NB:(YOU CAN ONLY BOOK AN EV CHARGER FOR THE DATE PRESENT TODAY!):");
     btn.innerText = "THIS STATION IS BOOKED FROM 8am-10am";
-    status.innerText = `THIS CHARGING STATION IS BOOKED BY #${names} ON ${date} FROM ${timefrom} TO ${timeto}`;
+    
   });
 
   btn1.addEventListener("click", function() {
     
     const names = prompt("WRITE YOUR NAME HERE  NB:(YOU CAN ONLY BOOK AN EV CHARGER FOR THE DATE PRESENT TODAY!):");
     btn1.innerText = "THIS STATION IS BOOKED FROM 10am-12am";
-    status.innerText = `THIS CHARGING STATION IS BOOKED BY #${names} ON ${date} FROM ${timefrom} TO ${timeto}`;
+    
   });
 
   btn2.addEventListener("click", function() {
     
     const names = prompt("WRITE YOUR NAME HERE  NB:(YOU CAN ONLY BOOK AN EV CHARGER FOR THE DATE PRESENT TODAY!):");
     btn2.innerText = "THIS STATION IS BOOKED FROM 12am-2pm";
-    status.innerText = `THIS CHARGING STATION IS BOOKED BY #${names} ON ${date} FROM ${timefrom} TO ${timeto}`;
+    
   });
   
   btn3.addEventListener("click", function() {
     
     const names = prompt("WRITE YOUR NAME HERE  NB:(YOU CAN ONLY BOOK AN EV CHARGER FOR THE DATE PRESENT TODAY!):");
     btn3.innerText = "THIS STATION IS BOOKED FROM 2pm-4pm";
-    status.innerText = `THIS CHARGING STATION IS BOOKED BY #${names} ON ${date} FROM ${timefrom} TO ${timeto}`;
+    
   });
 
 
