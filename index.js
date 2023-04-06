@@ -51,6 +51,27 @@ function displayChargers(chargers){
 
   const status = chargercards.querySelector(".station-status");
 
+
+  // Add event listener for mouseover event
+  btn.addEventListener("mouseover", function() {
+    btn.blur(); // Blur the button on mouseover
+  });
+
+  // Add event listener for mouseover event
+  btn1.addEventListener("mouseover", function() {
+    btn1.blur(); // Blur the button on mouseover
+  });
+
+  // Add event listener for mouseover event
+  btn2.addEventListener("mouseover", function() {
+    btn2.blur(); // Blur the button on mouseover
+  });
+
+  // Add event listener for mouseover event
+  btn3.addEventListener("mouseover", function() {
+    btn3.blur(); // Blur the button on mouseover
+  });
+
   btn.addEventListener("click", function() {
     
     const names = prompt("WRITE YOUR NAME HERE  NB:(YOU CAN ONLY BOOK AN EV CHARGER FOR THE DATE PRESENT TODAY!):");
@@ -82,13 +103,4 @@ function displayChargers(chargers){
 
 
 }
-
-
-
-
-
-
-
-
-
 
