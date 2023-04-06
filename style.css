@@ -47,6 +47,11 @@
   .topnav-right {
     float: right;
   }
+
+  #searchInput{
+    float: right;
+    height:40px;
+  }
   
   /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
   @media screen and (max-width: 600px) {
@@ -296,3 +301,4 @@ img {vertical-align: middle;}
   .book-now-btn:hover, .book-now-btn2:hover, .book-now-btn3:hover, .book-now-btn4:hover {
     filter:brightness(100); 
   }
+

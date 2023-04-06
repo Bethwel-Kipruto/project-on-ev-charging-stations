@@ -104,3 +104,24 @@ function displayChargers(chargers){
 
 }
 
+const searchInput = document.getElementById("searchInput");
+searchInput.addEventListener("input", filterChargers);
+
+
+function filterChargers() {
+    const searchTerm = searchInput.value.toLowerCase(); // Get the search term and convert it to lowercase
+    const chargers = document.getElementsByClassName("card"); // Get all the charger cards
+    
+    // Loop through each charger card and check if the location or description contains the search term
+    for (let i = 0; i < chargers.length; i++) {
+      const location = chargers[i].querySelector("h3").innerText.toLowerCase();
+      const description = chargers[i].querySelector("h5").innerText.toLowerCase();
+      
+      if (location.includes(searchTerm) || description.includes(searchTerm)) {
+        chargers[i].style.display = "block"; // Show the charger card if it matches the search term
+      } else {
+        chargers[i].style.display = "none"; // Hide the charger card if it doesn't match the search term
+      }
+    }
+  }
+  
